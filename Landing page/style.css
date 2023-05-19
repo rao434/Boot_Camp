@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+    position: relative; 
+}
+.search input{
+    height: 40px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+.search .fa-search{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.sun {
+    background-color: rgb(216, 218, 218);
+    margin-left: 10px;
+    border: 1px solid rgb(216, 218, 218);
+    padding: 10px 14px;
+    border-radius: 50px;
+  }
+.bell {
+    background-color: rgb(216, 218, 218);
+    /* margin-top: 3px; */
+    margin-left: 10px;
+    border: 1px solid rgb(216, 218, 218);
+    padding: 10px 14px;
+    border-radius: 50px;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+  }
+  .hero-background{
+    background-color:rgb(117,79,254) ;
+    height: 408px;
+}
+.text{
+    color: white;
+    /* text-align: center; */
+    margin-top:30px;
+    /* align-items: center; */
+    /* padding: 150px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; */
+}
+.btn{
+    justify-content: left;
+    color: black;
+    background-color:white;
+    border-radius: 10px;
+}
+.btn1{
+    color: white;
+    background-color:black;
+}
+h2{
+    margin-top: 50px;
+}
+/* .camera{
+    border: ipx solid rgb(240, 129, 1);
+    border-radius: 10px;
+} */
+.img{
+    size: cover;
+}
+.card-avt{
+    display: flex;
+}
+.mainthreeIcon{
+    margin-right: -60px;
+}
+.headingRecomand{
+    /* background-color: blue; */
+    margin-left: 96px;
+}

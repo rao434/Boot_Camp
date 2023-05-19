@@ -1,0 +1,29 @@
+!------------------------------------------------------Assignment Questions-----------------------------------------------------------------!
+
+Q1):Write a function that takes in an array of strings and returns a new array with the strings sorted by length, 
+longest to shortest.
+
+Q2):Write a function that takes in an array of objects representing people and returns a new array with only the 
+people who are over the age of 30.
+
+Q3):Use the spread operator to combine multiple arrays into one, with each array sorted in descending order.
+
+Q4):Write a function that takes in an array of strings and returns a new array with only the strings that contain 
+more vowels than consonants.
+
+Q5):Write a function that takes in a number and prints out all the prime numbers up to that number.
+
+Q6): Write a function that takes an array of objects with name and age properties, and returns a new array with 
+the ages sorted in descending order using the rest operator.
+
+Q7): Write a function that takes an object with city, state, and country properties representing a location, 
+and logs the location in the format city, state, country using destructuring.
+
+Q8): Write a function that takes a string and converts it to a number. Use a try/catch block to handle any errors 
+that may occur, such as if the string is not a valid number.
+
+Q9): Write a function that takes an array of objects with title and year properties and returns the first object 
+with a year property greater than or equal to 2000 using the find() method.
+
+Q10): Create a class called Person with properties name, age, and gender, and a method called greet that logs 
+a greeting to the console.

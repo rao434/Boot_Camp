@@ -1,0 +1,42 @@
+
+                                                      Q1
+
+
+Create a class named Animal that has the following properties: species, color, and sound. 
+Then, create three objects from the Animal class 
+and print out their properties to the console.
+
+                                                     Q2
+
+Create a class named BankAccount that has the following properties: accountNumber, 
+accountHolder, balance. Then, create an object from the BankAccount class and create methods for depositing and withdrawing money from the account. 
+Print out the updated balance after each transaction.
+
+
+                                                      Q3
+
+
+Create a class named Rectangle that has the following properties: width and height.
+ Then, create an object from the Rectangle class and create methods for calculating 
+its perimeter and area. Print out the results to the console.
+
+
+                                                    Q4
+
+
+Create a class called Employee that has properties name, position, 
+and salary. Add methods to get and set these properties, as well as a method to give the employee a raise (by increasing their salary by a certain percentage).
+
+
+                                                    Q5
+Create a class called ArrayManipulator that takes an array of numbers as a parameter
+ when it is created. Add a method to the class 
+that returns the sum of all the numbers in the array.
+
+                                                     Q6
+
+ Create a class called ArrayFilter that takes an array of objects as a parameter when it is created.
+ The objects in the array should have properties name and age. Add a method to the class that 
+filters the array to only include objects where the age is greater than or equal to 18.
+
+

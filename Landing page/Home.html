@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <!--Main NavBar  -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../Landing page/Images/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Browse
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Landings
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Accounts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" class="form-control" placeholder="search Courses">
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="icons mainthreeIcon">
+      <div style="width: 30px; height: 30px; border-radius: 50%; overflow: hidden; margin-right: -5px">
+        <img src="https://geeks-nextjs.vercel.app/images/svg/sun.svg" alt="Picture 1"
+          style="width: 100%; height: 100%;">
+      </div>
+      <span class="bell-icon mx-3">
+        <i class="fas fa-bell"></i>
+      </span>
+      <div style="width: 30px; height: 30px; border-radius: 50%; overflow: hidden;">
+        <img src="https://geeks-nextjs.vercel.app/images/avatar/avatar-1.jpg" alt="Picture 3"
+          style="width: 100%; height: 100%;">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Text and Picture -->
+  <div class="row hero-background">
+    <div class="col-2"></div>
+    <div class="col-4 text">
+      <h2>Welcome to Geeks <br> UI Learning Application</h2>
+      <h5>Hand-picked Instructor and expertly crafted <br> courses, designed for the modern students and <br>
+        entrepreneur.</h5>
+      <div>
+        <button type="button" class="btn btn-secondary btn1">Browse Courses </button>
+        <button type="button" class="btn btn-secondary btn">Are you Instructor?</button>
+      </div>
+    </div>
+    <div class="col-6">
+      <img src="../Landing page/Images/hero-img.png" alt="">
+    </div>
+  </div>
+  <!-- Three main Icon and text -->
+  <section class="bg-white py-4 shadow-sm">
+    <div class="container">
+      <div class="align-items-center g-0 row">
+        <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-camera-video camera" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+            </svg>
+            <div class="ms-3">
+              <h4 class="mb-0 fw-semi-bold">
+                30,000 online courses
+              </h4>
+              <p class="mb-0">
+                Enjoy a variety of fresh topics
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+            </svg>
+            <div class="ms-3">
+              <h4 class="mb-0 fw-semi-bold">
+                Expert instruction
+              </h4>
+              <p class="mb-0">
+                Find the right instructor for you
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+              viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            <div class="ms-3">
+              <h4 class="mb-0 fw-semi-bold">
+                Lifetime access
+              </h4>
+              <p class="mb-0">
+                Learn on your schedule
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heading -->
+  <div class="headingRecomand">
+    <h2>Recommended to you</h2>
+  </div>
+  <!-- Cards Code -->
+  <div class="row mt-4 mx-5">
+    <div class="card mx-5" style="width: 15rem;">
+      <img src="../Landing page/Images/course-graphql.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GraphQL: Introduction to GraphQL for beginners</h5>
+        <ul class="mb-3 list-inline">
+          <li class="list-inline-item">
+            <i me-1"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+              viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            5h 46m
+          </li>
+          <li class="list-inline-item">
+            <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+              <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+              <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+            </svg>
+            Advance
+          </li>
+        </ul>
+        <span class="text-warning me-1 mb-0">
+          <svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg>
+        </span>
+        <span class="text-warning me-1"> <!-- -->2.5</span>
+        <span class="fs-6 text-muted"> <!-- -->(<!-- -->1,500<!-- -->)</span>
+        <div class="lh-1 mt-3 "><span class="text-dark fw-bold">$<!-- -->500</span> <del
+            class="fs-6 text-muted">$<!-- -->600</del></div>
+
+      </div>
+
+      <div class="card-body">
+        <div style="display: flex;">
+          <div class="col-auto col"><img style="width: 1.5rem; height: 1.5rem;"
+              src="../Landing page/Images/avatar-6.jpg" alt="" class="rounded-circle avatar-xs"></div>
+          <div class="col ms-2 col"><span>Brooklyn Simmons</span></div>
+          <div class="col-auto col"><a href="/#"><i class="fe fe-bookmark"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="width: 15rem;">
+      <img src="../Landing page/Images/course-javascript.jpg" class="card-img-top " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+        <ul class="mb-3 list-inline">
+          <li class="list-inline-item">
+            <!-- <i  me-1"></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+              viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            4h 10m
+          </li>
+          <li class="list-inline-item">
+            <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+              <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+              <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+            </svg>
+            Advance
+          </li>
+        </ul>
+        <span class="text-warning me-1 mb-0">
+          <svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg>
+        </span>
+        <span class="text-warning me-1"> <!-- -->3.5</span>
+        <span class="fs-6 text-muted"> <!-- -->(<!-- -->7,500<!-- -->)</span>
+        <div class="lh-1 mt-3 "><span class="text-dark fw-bold">$<!-- -->700</span> <del
+            class="fs-6 text-muted">$<!-- -->850</del></div>
+
+      </div>
+
+      <div class="card-body">
+        <div style="display: flex;">
+          <div class="col-auto col"><img style="width: 1.5rem; height: 1.5rem;"
+              src="../Landing page/Images/avatar-1.jpg" alt="" class="rounded-circle avatar-xs"></div>
+          <div class="col ms-2 col"><span>Jenny Wilson</span></div>
+          <div class="col-auto col"><a href="/#"><i class="fe fe-bookmark"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-5" style="width: 15rem;">
+      <img src="../Landing page/Images/course-node.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Beginning Node.js, Express &amp; MongoDB Development</h5>
+        <ul class="mb-3 list-inline">
+          <li class="list-inline-item">
+            <i me-1"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+              viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            2h 00m
+          </li>
+          <li class="list-inline-item">
+            <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+              <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+              <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg>Intermediate
+          </li>
+        </ul>
+        <span class="text-warning me-1 mb-0">
+          <svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg>
+        </span>
+        <span class="text-warning me-1"> <!-- -->4.0</span>
+        <span class="fs-6 text-muted"> <!-- -->(<!-- -->15,700<!-- -->)</span>
+        <div class="lh-1 mt-3 "><span class="text-dark fw-bold">$<!-- -->800</span> <del
+            class="fs-6 text-muted">$<!-- -->950</del></div>
+      </div>
+      <div class="card-body">
+        <div style="display: flex;">
+          <div class="col-auto col"><img style="width: 1.5rem; height: 1.5rem;"
+              src="../Landing page/Images/avatar-3.jpg" alt="" class="rounded-circle avatar-xs"></div>
+          <div class="col ms-2 col"><span>Sina Ray</span></div>
+          <div class="col-auto col"><a href="/#"><i class="fe fe-bookmark"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-3" style="width: 15rem;">
+      <img src="../Landing page/Images/course-laravel.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Laravel: The Ultimate Beginner’s Guide to Learn Laravel Step by Step</h5>
+        <ul class="mb-3 list-inline">
+          <li class="list-inline-item">
+            <i me-1"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+              viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            1h 00m
+          </li>
+          <li class="list-inline-item">
+            <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+              <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+              <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg>
+            Beginner
+          </li>
+        </ul>
+        <span class="text-warning me-1 mb-0">
+          <svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg><svg viewBox="0 0 24 24" style="width:0.92rem;height:0.92rem" role="presentation">
+            <path
+              d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+              style="fill:currentColor"></path>
+          </svg>
+        </span>
+        <span class="text-warning me-1"> <!-- -->4.5</span>
+        <span class="fs-6 text-muted"> <!-- -->(<!-- -->2,500<!-- -->)</span>
+        <div class="lh-1 mt-3 "><span class="text-dark fw-bold">$<!-- -->170</span> <del
+            class="fs-6 text-muted">$<!-- -->220</del></div>
+      </div>
+      <div class="card-body">
+        <div style="display: flex;">
+          <div class="col-auto col"><img style="width: 1.5rem; height: 1.5rem;"
+              src="../Landing page/Images/avatar-9.jpg" alt="" class="rounded-circle avatar-xs"></div>
+          <div class="col ms-2 col"><span>Sobo Rikhan</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

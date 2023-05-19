@@ -1,0 +1,21 @@
+
+
+
+                                                         Assginment 3
+
+
+
+1)Write a function that takes an array of numbers and returns the first even number using the find() method.
+
+2)Write a function that takes an array of strings and returns the first string that contains the word 'hello' using the 
+find() method.
+3)Write a function that takes an array of objects with title and year properties and returns the first object with a 
+year property greater than or equal to 2000 using the find() method.
+
+4) Create an array of strings and use the map() method to convert each string to all uppercase.
+
+5)Create an array of objects representing cars with properties make and model, and use the map() method 
+to create a new array with only the car makes.
+
+6)Write a function that takes an array of strings and returns a new array with only the strings that start with the 
+   letter 'A' using the filter() method.

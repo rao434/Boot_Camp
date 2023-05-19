@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Base styles for the navigation bar */
+        .navbar {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        /* Styles for small screens */
+        @media screen and (max-width: 600px) {
+            .navbar-menu {
+                display: none;
+                /* Hide the menu items */
+            }
+
+            .navbar-toggle {
+                display: block;
+                /* Display the toggle button */
+                background-color: #333;
+                width: 50px;
+                height: 30px;
+                cursor: pointer;
+            }
+
+            .navbar-toggle::before,
+            .navbar-toggle::after {
+                content: '';
+                display: block;
+                background-color: #fff;
+                height: 3px;
+                margin: 5px 0;
+            }
+        }
+
+        /* Styles for medium and large screens */
+        @media screen and (min-width: 601px) {
+            .navbar-menu {
+                display: flex;
+                /* Display the menu items as a horizontal bar */
+                justify-content: space-between;
+                list-style: none;
+                padding: 0;
+            }
+
+            .navbar-menu li {
+                margin-right: 10px;
+            }
+
+            .navbar-toggle {
+                display: none;
+                /* Hide the toggle button */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-toggle"></div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

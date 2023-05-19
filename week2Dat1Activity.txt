@@ -1,0 +1,11 @@
+Q1):Create a base class called Vehicle with properties make, model, and year and
+ a method called start() that logs a message indicating that the vehicle is starting. Then create two subclasses called Car and Motorcycle that both extend Vehicle.
+ Car should have an additional property called numDoors and a method called drive() 
+
+Q2):Create a base class called Shape with properties width and height and 
+a method called area() that calculates and returns the area of the shape. Then create a subclass called Rectangle that extends Shape and has an additional property called color and a method called 
+draw() that logs a message to the console indicating that the rectangle is being drawn.
+
+Q3):Create a base class called Animal with properties name and age and 
+a method called eat(). Then create a subclass called Dog that extends Animal and has an additional property
+ called breed and a method called bark() that logs "Woof!" to the console.

@@ -1,0 +1,15 @@
+!------------------------------------------------------------Assignment Questions---------------------------------------------------------------!
+
+     Q1): Create a React component called UserList that fetches a list of users using axios and useEffect hook 
+               from a fake REST API (https://jsonplaceholder.typicode.com/users) and displays their 
+	i- names
+	ii- email
+	iii- address
+	iv-  phone 
+	v- website
+	vi- company name
+              in a <table> elements.
+
+     Q2): Create a React component called PostList that fetches a list of posts using axios and useEffect 
+               from a fake REST API (https://jsonplaceholder.typicode.com/posts) and displays the titles and 
+               bodies of the posts in <Cards> elements. 
